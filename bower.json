@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mr-Anemo/frontend_assembly_project",
+  "authors": [
+    "Anemo <nsluny@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "susy": "~2.2.2",
+    "breakpoint-sass": "~2.5.0"
+  }
+}

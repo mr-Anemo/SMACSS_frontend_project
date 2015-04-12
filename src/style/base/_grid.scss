@@ -1,0 +1,15 @@
+@import "../../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "../../../bower_components/susy/sass/susy";
+
+$susy: (
+	columns: 12,
+	gutters: 0.25,
+	container: 83.571em,
+	math: fluid,
+	output: float,
+	gutter-position: after,
+);
+
+.container {
+  @include container;
+}
